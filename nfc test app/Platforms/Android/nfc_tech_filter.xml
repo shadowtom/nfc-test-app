@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- NFC Tech Lists -->
+	<!-- Define supported NFC technologies -->
+	<string-array name="nfc_tech_filter_mifare_classic">
+		<item>android.nfc.tech.NfcA</item>
+		<item>android.nfc.tech.MifareClassic</item>
+	</string-array>
+
+	<string-array name="nfc_tech_filter_mifare_ultralight">
+		<item>android.nfc.tech.NfcA</item>
+		<item>android.nfc.tech.MifareUltralight</item>
+	</string-array>
+
+	<string-array name="nfc_tech_filter_nfc_a">
+		<item>android.nfc.tech.NfcA</item>
+	</string-array>
+
+	<string-array name="nfc_tech_filter_nfc_b">
+		<item>android.nfc.tech.NfcB</item>
+	</string-array>
+
+	<string-array name="nfc_tech_filter_nfc_f">
+		<item>android.nfc.tech.NfcF</item>
+	</string-array>
+
+	<string-array name="nfc_tech_filter_nfc_v">
+		<item>android.nfc.tech.NfcV</item>
+	</string-array>
+
+	<string-array name="nfc_tech_filter_iso_dep">
+		<item>android.nfc.tech.IsoDep</item>
+	</string-array>
+
+	<string-array name="nfc_tech_filter_ndef">
+		<item>android.nfc.tech.Ndef</item>
+	</string-array>
+
+	<string-array name="nfc_tech_filter_ndef_formatable">
+		<item>android.nfc.tech.NdefFormatable</item>
+	</string-array>
+</resources>

@@ -7,10 +7,19 @@ namespace nfc_test_app
     public class MainApplication : MauiApplication
     {
         public MainApplication(IntPtr handle, JniHandleOwnership ownership)
-            : base(handle, ownership)
+        : base(handle, ownership)
         {
         }
 
         protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+
+        public override void OnCreate()
+        {
+            base.OnCreate();
+
+            // Initialize NFC Plugin at application level
+            Plugin.NFC.CrossNFC.Init(this);
+        }
+        
     }
 }
